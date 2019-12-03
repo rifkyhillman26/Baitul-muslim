@@ -2,42 +2,52 @@
 
 <head>
     <title> baitul muslim </title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="screen">
     <style>
-        h1 {
-            color: red;
-            background-color: fixed;
+        #tulisan {
+            background-color: black;
+            color: white;
         }
 
-        p {
-            color: blue;
+        .tulisan2 {
+            background-color: chartreuse;
         }
     </style>
 </head>
 
 <body>
+    <img src="/img/download.png" />
 
-    <p align="left"> ini kiri </p>
+    <div id="tulisan">
+        <h1> CSS </h1>
+    </div>
 
-    <h1 align="center"> ini tengah </h1>
+    <div class="tulisan2">
+        <p> Hallo </p>
+    </div>
 
-    <p align="right"><b>kanan</b></p>
+    <div class="tulisan2">
+        <p> Dunia </p>
+    </div>
 
-    <img src="/download.png" />
+    <div id="tulisan">
+        <p> Website </p>
+    </div>
 
-    <form>
-        <fieldset>
-            <legend>Personal Information</legend>
-            <p>
-                <label for="full-name">Full Name</label>
-                <input id="full-name" name="fullName" type="text">
-            </p>
-            <p>
-                <label for="email">Email Address</label>
-                <input id="email" name="email" type="email">
-            </p>
-        </fieldset>
-    </form>
+    <div class="tulisan3">
+        <h2> Css ke 2 </h2>
+    </div>
 
+    <div>
+        <label for="full-name">Full Name</label>
+        <input id="full-name" name="fullName" type="text">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email">
+    </div>
+    <br>
     <form>
         <label for="programming">Your preferred programming languages?</label>
         <input type="text" name="programming" list="programmingLangs" />
@@ -66,15 +76,9 @@
         <label for="reading-checkbox">membaca</label>
         <input type="submit" value="Submit">
     </form>
-    <div>
-        <button name="good"><a href="https://github.com/talkasrul/step-1/blob/master/week-1/learn/css3-basics.md">
-                ini ke Github step 1</a>
-        </button>
-    </div>
-
-    <h1>
-        <a href="./Page2.html"> ke halaman lain </a>
-    </h1>
+    <button>
+        <a style="text-decoration: none;" href="./Page2.html"> ke halaman lain </a>
+    </button>
 
 </body>
 
