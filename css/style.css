@@ -1,4 +1,6 @@
 .tulisan3 {
-    color:white;
-    background-color: yellowgreen;
+    border-right:3px solid red;
+    border-left:3px solid red ;
+    width: 100px;
+    height: 100px;
 }
